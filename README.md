@@ -2,7 +2,7 @@
 
 > A curated list of proactive agents: systems that decide whether, when, and how far to help without a new explicit request.
 
-Primary sources were checked on 2026-11-08. A resource is listed only when a paper, official repository, or author-hosted page shows that behavior. An agent that waits for a goal and then uses tools is not included merely because it is called proactive.
+Primary sources were checked on 2026-11-09. A resource is listed only when a paper, official repository, or author-hosted page shows that behavior. An agent that waits for a goal and then uses tools is not included merely because it is called proactive.
 
 ## What Counts
 
@@ -58,6 +58,7 @@ A proactive agent takes initiative with a person or a shared situation. It may a
 - **ProAgentBench: Evaluating LLM Agents for Proactive Assistance with Real-World Data** (Yuanbo Tang et al., 2026) - Splits proactive assistance into timing prediction and content generation, using 28,000+ events from 500+ hours of real user sessions. [[arXiv]](https://arxiv.org/abs/2602.04482)
 - **ProMediate: A Socio-cognitive framework for evaluating proactive agents in multi-party negotiation** (Ziyi Liu et al., 2025) - Simulation testbed and measures for a mediator that steps into multi-party, multi-topic negotiation. [[arXiv]](https://arxiv.org/abs/2510.25224) [[GitHub]](https://github.com/microsoft/ProMediate-Eval)
 - **ProactiveEval: A Unified Evaluation Framework for Proactive Dialogue Agents** (Tianjian Liu et al., 2025) - Splits proactive dialogue into target planning and dialogue guidance, with 328 evaluation environments across 6 domains. [[arXiv]](https://arxiv.org/abs/2508.20973) [[GitHub]](https://github.com/liutj9/ProactiveEval)
+- **Omni-Life: Benchmarking Omnimodal Real-Time AI Assistants in People's Daily Lives** (Hong et al., 2026) - Scores whether a real-time audiovisual assistant should help, including 555 required intervention events and 110 videos that should stay silent throughout. [[arXiv]](https://arxiv.org/abs/2611.02835) [[GitHub]](https://github.com/todayai-labs/omni-life) [[Project]](https://todayai-labs.github.io/omni-life/)
 
 ## Intervention Decisions
 
@@ -71,6 +72,8 @@ A proactive agent takes initiative with a person or a shared situation. It may a
 - **Pushing Forward Pareto Frontiers of Proactive Agents with Behavioral Agentic Optimization** (Yao et al., 2026) - Behavior Agentic Optimization trains multi-turn agents against the tradeoff between finishing the task and how often they ask the user. [[arXiv]](https://arxiv.org/abs/2602.11351) [[Project]](https://proactive-agentic-rl.github.io/)
 - **PRISM: Festina Lente Proactivity -- Risk-Sensitive, Uncertainty-Aware Deliberation for Proactive Agents** (Fu et al., 2026) - Intervenes only when an estimated chance of user acceptance clears a threshold set from the costs of missed help and false alarms. [[arXiv]](https://arxiv.org/abs/2602.01532) [[Project]](https://prism-festinalente.github.io/)
 - **Proactive Agents for Multi-Turn Text-to-Image Generation Under Uncertainty** (Hahn et al., ICML 2025) - Asks clarification questions and shows an editable belief graph when an image prompt leaves user intent underspecified. [[arXiv]](https://arxiv.org/abs/2412.06771)
+- **Don't Guess, Ask Wisely: Benchmarking and Training Proactive Elicitation in Open-Domain LLM Conversations** (Rongyu Zhang et al., EMNLP 2026) - VagueBench evaluates when to ask for missing detail before answering an underspecified query, and DialogGRPO trains that choice without over-asking on complete queries. [[arXiv]](https://arxiv.org/abs/2611.01878) [[GitHub]](https://github.com/zhangrongyu0101/VagueBench) [[Project]](https://zhangrongyu0101.github.io/VagueBench/) [[Dataset]](https://huggingface.co/datasets/rongyu0101/VagueBench)
+- **The Price of Scale in Proactive Memory Recall** (Yichuan Chen and Xin Wang, 2026) - Treats the choice to surface a stored memory without being asked as an interruption decision whose difficulty grows with the size of the memory store. [[arXiv]](https://arxiv.org/abs/2610.34507) [[GitHub]](https://github.com/RiverChenStillCompiling/price-of-scale)
 
 ## Anticipation, Memory, and Context
 

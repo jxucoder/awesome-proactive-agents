@@ -2,7 +2,7 @@
 
 > A curated list of proactive agents: systems that decide whether, when, and how far to help without a new explicit request.
 
-Primary sources were checked on 2026-11-09. A resource is listed only when a paper, official repository, or author-hosted page shows that behavior. An agent that waits for a goal and then uses tools is not included merely because it is called proactive.
+Primary sources were checked on 2026-11-15. A resource is listed only when a paper, official repository, or author-hosted page shows that behavior. An agent that waits for a goal and then uses tools is not included merely because it is called proactive.
 
 ## What Counts
 
@@ -59,6 +59,7 @@ A proactive agent takes initiative with a person or a shared situation. It may a
 - **ProMediate: A Socio-cognitive framework for evaluating proactive agents in multi-party negotiation** (Ziyi Liu et al., 2025) - Simulation testbed and measures for a mediator that steps into multi-party, multi-topic negotiation. [[arXiv]](https://arxiv.org/abs/2510.25224) [[GitHub]](https://github.com/microsoft/ProMediate-Eval)
 - **ProactiveEval: A Unified Evaluation Framework for Proactive Dialogue Agents** (Tianjian Liu et al., 2025) - Splits proactive dialogue into target planning and dialogue guidance, with 328 evaluation environments across 6 domains. [[arXiv]](https://arxiv.org/abs/2508.20973) [[GitHub]](https://github.com/liutj9/ProactiveEval)
 - **Omni-Life: Benchmarking Omnimodal Real-Time AI Assistants in People's Daily Lives** (Hong et al., 2026) - Scores whether a real-time audiovisual assistant should help, including 555 required intervention events and 110 videos that should stay silent throughout. [[arXiv]](https://arxiv.org/abs/2611.02835) [[GitHub]](https://github.com/todayai-labs/omni-life) [[Project]](https://todayai-labs.github.io/omni-life/)
+- **AutoBuddy: Evaluating Proactive, Always-On Agents on Task Discovery and Execution in a Simulated Workplace** (Shiqi Chen et al., 2026) - Tests whether an always-on agent can find pending workplace obligations in mail, chat, and records and carry them out without being asked. [[arXiv]](https://arxiv.org/abs/2611.12393)
 
 ## Intervention Decisions
 
@@ -74,6 +75,8 @@ A proactive agent takes initiative with a person or a shared situation. It may a
 - **Proactive Agents for Multi-Turn Text-to-Image Generation Under Uncertainty** (Hahn et al., ICML 2025) - Asks clarification questions and shows an editable belief graph when an image prompt leaves user intent underspecified. [[arXiv]](https://arxiv.org/abs/2412.06771)
 - **Don't Guess, Ask Wisely: Benchmarking and Training Proactive Elicitation in Open-Domain LLM Conversations** (Rongyu Zhang et al., EMNLP 2026) - VagueBench evaluates when to ask for missing detail before answering an underspecified query, and DialogGRPO trains that choice without over-asking on complete queries. [[arXiv]](https://arxiv.org/abs/2611.01878) [[GitHub]](https://github.com/zhangrongyu0101/VagueBench) [[Project]](https://zhangrongyu0101.github.io/VagueBench/) [[Dataset]](https://huggingface.co/datasets/rongyu0101/VagueBench)
 - **The Price of Scale in Proactive Memory Recall** (Yichuan Chen and Xin Wang, 2026) - Treats the choice to surface a stored memory without being asked as an interruption decision whose difficulty grows with the size of the memory store. [[arXiv]](https://arxiv.org/abs/2610.34507) [[GitHub]](https://github.com/RiverChenStillCompiling/price-of-scale)
+- **SurgStream: A Workflow-Anchored Proactive Streaming Framework and Benchmark for Real-Time Surgical Video Understanding** (Ruipeng Ma et al., 2026) - Supervises when a surgical-video assistant should respond inside a clinical window, and SurgStream-Bench's 11.7K streaming interactions include proactive alerts. [[arXiv]](https://arxiv.org/abs/2611.01982)
+- **Deep Personalization: Continuous Context Observation for Local Proactive Agents** (Yijia Shao et al., 2026) - Coco watches desktop activity on device and learns from engagement and dismissal when offering help would be useful rather than disruptive. [[arXiv]](https://arxiv.org/abs/2611.13457) [[GitHub]](https://github.com/collaborative-agents/coco)
 
 ## Anticipation, Memory, and Context
 
@@ -87,6 +90,7 @@ A proactive agent takes initiative with a person or a shared situation. It may a
 - **Sensible Agent: A Framework for Unobtrusive Interaction with Proactive AR Agents** (Geonsun Lee et al., UIST 2025) - Chooses both what a proactive AR agent offers and a less disruptive way to deliver it from multimodal context. [[arXiv]](https://arxiv.org/abs/2509.09255)
 - **ContextAgent: Context-Aware Proactive LLM Agents with Open-World Sensory Perceptions** (Bufang Yang et al., NeurIPS 2025) - Predicts whether wearable video, audio, and past personas justify proactive service outside a closed desktop UI. [[arXiv]](https://arxiv.org/abs/2505.14668) [[GitHub]](https://github.com/openaiotlab/ContextAgent)
 - **AssistantX: An LLM-Powered Proactive Assistant in Collaborative Human-Populated Environment** (Sun et al., IROS 2025) - Service-robot assistant for proactive collaboration in human-populated spaces, evaluated on a dataset of 210 real-world tasks. [[arXiv]](https://arxiv.org/abs/2409.17655) [[Project]](https://assistantx-agent.github.io/AssistantX/)
+- **MemoProAgent: Toward Memory-Driven Proactive Assistance** (Shenglai Zeng et al., 2026) - Decides whether a long personal memory justifies an interruption, and MemoProBench scores that content and timing against human-verified trigger windows. [[arXiv]](https://arxiv.org/abs/2610.22671) [[GitHub]](https://github.com/facebookresearch/Memo-Pro-Agent) [[Dataset]](https://huggingface.co/datasets/facebook/MemProBench)
 
 ## Dialogue and Collaboration
 
